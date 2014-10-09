@@ -1,0 +1,21 @@
+{
+    "name": "vladimir/pms-api",
+    "description": "PMS API",
+    "type": "pms-module",
+    "version": "0.0.1",
+    "license": "mit",
+
+    "require": {
+        "php"                                               : ">=5.4",
+        "silex/silex"                                       : "~1.2"
+    },
+    "minimum-stability"                                     : "stable",
+    "autoload": {
+        "psr-4": {
+            "Pms\\Api\\"                                    : "web/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
